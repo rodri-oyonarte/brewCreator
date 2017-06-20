@@ -11,6 +11,7 @@ engine=conexionBD.engine()
 Session = sessionmaker(bind=engine)
 session = Session()
 
+
 #-------------------------------------equipo---------------------------------------------------
 # POST crear equipo nuevo
 """"
@@ -176,9 +177,9 @@ def empezarReceta(idUsuario,idReceta):
 
 #GET get etapa
 @app.route('/etapaRealizada/<idEtapa>',methods=['GET'])
-def iniciarEtapa(idEtapa):
+def getEtapaRealizada(idEtapa):
     etapaRealizada = find.findEtapaRealizada(session,idEtapa)
-    equipoJson = json.dumps({
+    etapa = json.dumps({
         'idEtapaRealizada': etapaRealizada.idEtapaRecetaRealizada,
         'idEtapaReceta': etapaRealizada.idEtapaReceta,
         'numeroEtapa': etapaRealizada.numeroEtapa,
@@ -189,7 +190,14 @@ def iniciarEtapa(idEtapa):
         'Variantes': etapaRealizada.Variantes,
     })
 
-    return "etapa iniciada"
+    return jsonify(etapa)
+
+#GET etapas de recetas Realizadas
+@app.route('/etapasRealizada/<idRecetaRealizada>',methods=['GET'])
+def getEtapasRealizadas(idRecetaRealizada):
+    etapas = find.findEtapasRecetaRealizada(session,idRecetaRealizada)
+
+    return jsonify(etapas)
 
 # UPDATE iniciar etapa
 @app.route('/etapaRealizada/<idEtapa>',methods=['POST'])

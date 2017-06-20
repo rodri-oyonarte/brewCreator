@@ -1,4 +1,4 @@
-from Db_def import Equipo,Usuario,RecetaCerveza, EtapaReceta, CervezaVta, EtapaRecetaRealizada
+from Db_def import Equipo,Usuario,RecetaCerveza, RecetaRealizada, CervezaVta, EtapaRecetaRealizada
 from sqlalchemy import text
 from flask import jsonify
 
@@ -53,6 +53,23 @@ def findRecetaId(session,idReceta):
 def findObjReceta(session,idReceta):
     busqueda = session.query(RecetaCerveza).filter(RecetaCerveza.idReceta == idReceta).first()
     return  busqueda
+
+def findEtapasRecetaRealizada(session,idRecetaRealizada):
+    Etapas=[]
+    busqueda = session.query(RecetaRealizada).filter(RecetaRealizada.idRecetaRealizada == idRecetaRealizada).first()
+    for row in busqueda.EtapasRealizadas:
+        etapa = {
+            'idEtapaRealizada': row.idEtapaRecetaRealizada,
+            'idEtapaReceta': row.idEtapaReceta,
+            'numeroEtapa': row.numeroEtapa,
+            'NombreEtapa': row.NombreEtapa,
+            'tiempoIdeal': row.tiempoIdeal,
+            'tiempoInicio': row.tiempoInicio,
+            'tiempoFinal': row.tiempoFinal,
+            'Variantes': row.Variantes,
+        }
+        Etapas.append(etapa)
+    return Etapas
 
 def findCervezas(session):
     res = []
