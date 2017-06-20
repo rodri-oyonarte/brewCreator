@@ -174,6 +174,23 @@ def empezarReceta(idUsuario,idReceta):
     session.commit()
     return "Receta iniciada"
 
+#GET get etapa
+@app.route('/etapaRealizada/<idEtapa>',methods=['GET'])
+def iniciarEtapa(idEtapa):
+    etapaRealizada = find.findEtapaRealizada(session,idEtapa)
+    equipoJson = json.dumps({
+        'idEtapaRealizada': etapaRealizada.idEtapaRecetaRealizada,
+        'idEtapaReceta': etapaRealizada.idEtapaReceta,
+        'numeroEtapa': etapaRealizada.numeroEtapa,
+        'NombreEtapa': etapaRealizada.NombreEtapa,
+        'tiempoIdeal': etapaRealizada.tiempoIdeal,
+        'tiempoInicio': etapaRealizada.tiempoInicio,
+        'tiempoFinal': etapaRealizada.tiempoFinal,
+        'Variantes': etapaRealizada.Variantes,
+    })
+
+    return "etapa iniciada"
+
 # UPDATE iniciar etapa
 @app.route('/etapaRealizada/<idEtapa>',methods=['POST'])
 def iniciarEtapa(idEtapa):
@@ -181,7 +198,7 @@ def iniciarEtapa(idEtapa):
     etapaRealizada.tiempoInicio = datetime.datetime.now()
     session.commit()
 
-    return ""
+    return "etapa iniciada"
 
 #UPDATE finalizar etapa
 @app.route('/etapaRealizada/fin/<idEtapa>',methods=['POST'])
@@ -190,7 +207,7 @@ def finalizarEtapa(idEtapa):
     etapaRealizada.tiempoFinal = datetime.datetime.now()
     session.commit()
 
-    return ""
+    return "etapa finalizada"
 #--------------------------------------Cerveceros-------------------------------------------
 # GET Cerveceros listado de cerveza ofrecidas
 """
