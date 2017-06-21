@@ -171,8 +171,9 @@ def empezarReceta(idUsuario,idReceta):
 
     Usuario.RecetasRealizadas.append(recetaNueva)
     session.add(recetaNueva)
+    session.flush()
     session.commit()
-    return "Receta iniciada"
+    return jsonify({"idRecetaRealizada":recetaNueva.idRecetaRealizada})
 
 #GET get etapa
 @app.route('/etapaRealizada/<idEtapa>',methods=['GET'])
