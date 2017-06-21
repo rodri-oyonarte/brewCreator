@@ -165,7 +165,6 @@ def empezarReceta(idUsuario,idReceta):
         etapaRealizada.idEtapaReceta = row.idEtapaReceta
         etapaRealizada.tiempoIdeal = row.tiempo
         etapaRealizada.NombreEtapa = row.Etapa[0].nombre
-        #etapaRealizada.tiempoInicio = datetime.datetime.now()
         etapaRealizada.numeroEtapa = row.Etapa[0].orden
         recetaNueva.EtapasRealizadas.append(etapaRealizada)
 
