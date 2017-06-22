@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86183a3b-8d6a-438e-b465-0429394a5a90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brewCreator.py" afterPath="$PROJECT_DIR$/brewCreator.py" />
-    </list>
+    <list default="true" id="86183a3b-8d6a-438e-b465-0429394a5a90" name="Default" comment="" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="brewCreator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/brewCreator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="173" column="19" lean-forward="true" selection-start-line="173" selection-start-column="19" selection-end-line="173" selection-end-column="19" />
+            <state relative-caret-position="61">
+              <caret line="149" column="20" lean-forward="false" selection-start-line="149" selection-start-column="12" selection-end-line="149" selection-end-column="20" />
               <folding>
                 <marker date="1498082648000" expanded="false" signature="0:45" ph="import ..." />
               </folding>
@@ -940,8 +938,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/brewCreator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="173" column="19" lean-forward="true" selection-start-line="173" selection-start-column="19" selection-end-line="173" selection-end-column="19" />
+        <state relative-caret-position="61">
+          <caret line="149" column="20" lean-forward="false" selection-start-line="149" selection-start-column="12" selection-end-line="149" selection-end-column="20" />
           <folding>
             <marker date="1498082648000" expanded="false" signature="0:45" ph="import ..." />
           </folding>
