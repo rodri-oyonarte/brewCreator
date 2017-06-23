@@ -28,10 +28,11 @@
       <file leaf-file-name="brewCreator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/brewCreator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="149" column="20" lean-forward="false" selection-start-line="149" selection-start-column="12" selection-end-line="149" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1498082648000" expanded="false" signature="0:45" ph="import ..." />
+                <element signature="e#0#55#0" expanded="true" />
+                <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
               </folding>
             </state>
           </provider>
@@ -40,7 +41,7 @@
       <file leaf-file-name="Db_def.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Db_def.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="142">
               <caret line="213" column="20" lean-forward="false" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="20" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
@@ -52,7 +53,7 @@
       <file leaf-file-name="find.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/find.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="405">
               <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
               <folding>
                 <element signature="e#0#98#0" expanded="true" />
@@ -87,6 +88,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>receta</find>
+      <find>/receta/</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -449,13 +451,13 @@
     <frame x="0" y="23" width="1280" height="721" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18739903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18739903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4944356" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4944356" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2819063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2819063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5166932" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -528,7 +530,8 @@
         <state relative-caret-position="1905">
           <caret line="160" column="4" lean-forward="false" selection-start-line="160" selection-start-column="4" selection-end-line="160" selection-end-column="4" />
           <folding>
-            <marker date="1498082648000" expanded="false" signature="0:45" ph="import ..." />
+            <element signature="e#0#55#0" expanded="true" />
+            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -560,7 +563,8 @@
         <state relative-caret-position="1905">
           <caret line="160" column="4" lean-forward="false" selection-start-line="160" selection-start-column="4" selection-end-line="160" selection-end-column="4" />
           <folding>
-            <marker date="1498082648000" expanded="false" signature="0:45" ph="import ..." />
+            <element signature="e#0#55#0" expanded="true" />
+            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -592,7 +596,8 @@
         <state relative-caret-position="1905">
           <caret line="160" column="4" lean-forward="false" selection-start-line="160" selection-start-column="4" selection-end-line="160" selection-end-column="4" />
           <folding>
-            <marker date="1498082648000" expanded="false" signature="0:45" ph="import ..." />
+            <element signature="e#0#55#0" expanded="true" />
+            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -624,7 +629,8 @@
         <state relative-caret-position="1905">
           <caret line="160" column="4" lean-forward="false" selection-start-line="160" selection-start-column="4" selection-end-line="160" selection-end-column="4" />
           <folding>
-            <marker date="1498082648000" expanded="false" signature="0:45" ph="import ..." />
+            <element signature="e#0#55#0" expanded="true" />
+            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -656,7 +662,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1498082648000" expanded="false" signature="0:45" ph="import ..." />
+            <element signature="e#0#55#0" expanded="true" />
+            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -666,7 +673,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1498082648000" expanded="false" signature="0:45" ph="import ..." />
+            <element signature="e#0#55#0" expanded="true" />
+            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -676,7 +684,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1498082648000" expanded="false" signature="0:45" ph="import ..." />
+            <element signature="e#0#55#0" expanded="true" />
+            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -686,7 +695,8 @@
         <state relative-caret-position="1860">
           <caret line="186" column="26" lean-forward="false" selection-start-line="186" selection-start-column="26" selection-end-line="186" selection-end-column="26" />
           <folding>
-            <marker date="1498082648000" expanded="false" signature="0:45" ph="import ..." />
+            <element signature="e#0#55#0" expanded="true" />
+            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -717,7 +727,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1498082648000" expanded="false" signature="0:45" ph="import ..." />
+            <element signature="e#0#55#0" expanded="true" />
+            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -727,7 +738,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1498082648000" expanded="false" signature="0:45" ph="import ..." />
+            <element signature="e#0#55#0" expanded="true" />
+            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -905,16 +917,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Db_def.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="213" column="20" lean-forward="false" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fill_DB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -927,7 +929,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/find.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="405">
           <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding>
             <element signature="e#0#98#0" expanded="true" />
@@ -936,12 +938,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Db_def.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="213" column="20" lean-forward="false" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/brewCreator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="149" column="20" lean-forward="false" selection-start-line="149" selection-start-column="12" selection-end-line="149" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1498082648000" expanded="false" signature="0:45" ph="import ..." />
+            <element signature="e#0#55#0" expanded="true" />
+            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
