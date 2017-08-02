@@ -167,7 +167,7 @@ def empezarReceta(idUsuario,idReceta):
         etapaRealizada.NombreEtapa = row.Etapa[0].nombre
         etapaRealizada.numeroEtapa = row.Etapa[0].orden
         recetaNueva.EtapasRealizadas.append(etapaRealizada)
-
+        #falta la descripcion
 
     Usuario.RecetasRealizadas.append(recetaNueva)
     session.add(recetaNueva)

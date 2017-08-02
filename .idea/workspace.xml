@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="86183a3b-8d6a-438e-b465-0429394a5a90" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brewCreator.py" afterPath="$PROJECT_DIR$/brewCreator.py" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,12 +31,22 @@
       <file leaf-file-name="brewCreator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/brewCreator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="218" column="92" lean-forward="true" selection-start-line="218" selection-start-column="92" selection-end-line="218" selection-end-column="92" />
+            <state relative-caret-position="15">
+              <caret line="212" column="28" lean-forward="false" selection-start-line="212" selection-start-column="28" selection-end-line="212" selection-end-column="28" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
-                <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
+                <marker date="1499458176000" expanded="true" signature="0:45" ph="import ..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.lock" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,6 +102,7 @@
     <findStrings>
       <find>receta</find>
       <find>/receta/</find>
+      <find>RecetaRealizada</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -451,9 +463,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19224556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19547658" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4944356" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -527,13 +538,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Db_def.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="92" column="6" lean-forward="false" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#98#0" expanded="true" />
+            <marker date="1497997684000" expanded="true" signature="681:708" ph="SELECT * FRO... RecetaCerveza" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/brewCreator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1905">
           <caret line="160" column="4" lean-forward="false" selection-start-line="160" selection-start-column="4" selection-end-line="160" selection-end-column="4" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
-            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
+            <marker date="1499458176000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -566,7 +598,7 @@
           <caret line="160" column="4" lean-forward="false" selection-start-line="160" selection-start-column="4" selection-end-line="160" selection-end-column="4" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
-            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
+            <marker date="1499458176000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -599,40 +631,7 @@
           <caret line="160" column="4" lean-forward="false" selection-start-line="160" selection-start-column="4" selection-end-line="160" selection-end-column="4" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
-            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fill_DB.py" />
-    <entry file="file://$PROJECT_DIR$/Db_def.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="92" column="6" lean-forward="false" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#98#0" expanded="true" />
-            <marker date="1497997684000" expanded="true" signature="681:708" ph="SELECT * FRO... RecetaCerveza" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brewCreator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1905">
-          <caret line="160" column="4" lean-forward="false" selection-start-line="160" selection-start-column="4" selection-end-line="160" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
+            <marker date="1499458176000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -665,7 +664,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
-            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
+            <marker date="1499458176000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -676,7 +675,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
-            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
+            <marker date="1499458176000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -687,7 +686,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
-            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
+            <marker date="1499458176000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -698,7 +697,7 @@
           <caret line="186" column="26" lean-forward="false" selection-start-line="186" selection-start-column="26" selection-end-line="186" selection-end-column="26" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
-            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
+            <marker date="1499458176000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -730,7 +729,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
-            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
+            <marker date="1499458176000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -741,7 +740,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
-            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
+            <marker date="1499458176000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -908,14 +907,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/find.py">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#98#0" expanded="true" />
-            <marker date="1497997684000" expanded="true" signature="681:708" ph="SELECT * FRO... RecetaCerveza" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -929,13 +932,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/find.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#98#0" expanded="true" />
+            <marker date="1497997684000" expanded="true" signature="681:708" ph="SELECT * FRO... RecetaCerveza" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/brewCreator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="218" column="92" lean-forward="true" selection-start-line="218" selection-start-column="92" selection-end-line="218" selection-end-column="92" />
+        <state relative-caret-position="15">
+          <caret line="212" column="28" lean-forward="false" selection-start-line="212" selection-start-column="28" selection-end-line="212" selection-end-column="28" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
-            <marker date="1498082648000" expanded="true" signature="0:45" ph="import ..." />
+            <marker date="1499458176000" expanded="true" signature="0:45" ph="import ..." />
           </folding>
         </state>
       </provider>
