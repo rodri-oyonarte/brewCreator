@@ -126,6 +126,17 @@ def getRecetas():
     Recetas = find.findReceta(session)
     return jsonify(Recetas)
 
+
+@app.route('/Receta',methods=['POST'])
+def postRecetas():
+    RecetaJson = request.get_json()
+    #ingredientes
+
+    #etapas
+
+    Recetas = find.findReceta(session)
+    return jsonify(Recetas)
+
 # GET receta %id (envia la receta requerida por id)
 """
 {
